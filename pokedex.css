@@ -1,0 +1,23 @@
+.frame {
+    background: lightgray;
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+    display:inline-block;
+    margin: 10px;
+}
+.popup{
+    background: lightgray;
+    border: 20px solid red;
+    border-radius: 5px;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: calc(50% - 250px);
+    top: calc(50% - 250px);
+    padding: 20px;
+    display: none;
+}
+.popup .frame{
+    float: right;
+}
